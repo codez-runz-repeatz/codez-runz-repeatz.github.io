@@ -18,11 +18,11 @@ textCell.id = "open-source-text"
 var heading = document.createElement("h1")
 heading.classList.add("small-title", "mega-margin", "open-source-title")
 // Normal text in heading
-var headingText = document.createTextNode("Follow Us ")
+var headingText = document.createTextNode("Follow Me ")
 
 var link = document.createElement("a")
 // Link text in heading
-var linkText = document.createTextNode("@TwitterOSS")
+var linkText = document.createTextNode("@codez_runz_repeat")
 link.appendChild(linkText)
 link.setAttribute("target", "_blank")
 link.setAttribute("href", "https://twitter.com/TwitterOSS")
@@ -73,7 +73,7 @@ function lessThan600px(mediaQuery) {
         // Timeline Height
         changeHeightByClass("twitter-timeline", "450px")
         
-        // Follow Us @TwitterOSS
+        // Follow Me @TwitterOSS
         parent.insertBefore(textCell, timeline)
         removeClassById("open-source-text", "u-size5of12")
         removeClassById("open-source-text", "u-before1of12")
