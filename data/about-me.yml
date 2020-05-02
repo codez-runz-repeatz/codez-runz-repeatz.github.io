@@ -1,0 +1,23 @@
+- company: MessageMedia
+  role: Senior Engineering Manager
+  dates: Nov 2019 - Present
+  where: Melbourne, Australia
+  logo: https://linuxfoundation.org
+  description: MessageMedia are the premier provider of Messaging services across AU and NZ. After multiple Acquisitions, their is a number of challenges, as the we look to grow from a small to large organisation.
+  people: Help uplift OKRs across the business to focus on constant improvement, Roll out pulse metrics across Engineering, Help uplift engineering from top down to bottom up.
+  architecture: Simplify the architecture vision for the cloud. Roll out mm-well architected framework. Create MessageMedia.xyz
+  engineering: Uplift the technical leadership. Living Diagrams over confluence pages. Reduce the noise. Reduce MTTD, MTTR
+  fe-tech: Java, React, Python, PHP, node
+
+- company: MYOB
+  role: Development Manager
+  dates: Jan 2017 - Nov 2019
+  where: Melbourne, Australia
+  logo: https://linuxfoundation.org
+  description: MYOB is an Australian multinational corporation that provides tax, accounting and other business services software to small and medium businesses.  At MYOB I lead the SME nation which developed and supported the underlying platform for the Essentials and Account Right.
+  clevel: Helped transform the business through FutureMakers, Managed SME Budgets, Presented 3 year technology roadmap.
+  people: Lead (managed and mentored) an engineering capability of upto 150, Increased Employee Engagement 78%.
+  engineering: I helped MYOB move into a cloud platform, introducing SRE across the business and a build it run it mentally. Introduced OKRs to engineering, to help build for customer outcomes rather than things, Lead Architecture across Mobile and Payment Domains.
+  fe-tech: Angular, C# Forms, React Native
+  be-tech: NodeJS, Python, JAVA, C#
+  cloud: AWS, Azure, Kubernetes
