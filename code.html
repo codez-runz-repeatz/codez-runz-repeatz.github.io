@@ -14,8 +14,8 @@ custom_js: projects.js
     <div class="Grid container">
         <div id="header-text" class="Grid-cell">
             <h1 class="large-title">Hot Dog.</h1>
-            {% for item in site.data.github %}
-                <h1 class="large-title">item.full_name</h1>
+            {% for items in site.data.github %}
+                <h1 class="large-title">{{ items.full_name }}</h1>
             {% endfor %}
             <div class="search-bar">
                 <input class="search-box" type="text" name="search" placeholder="Search Projects" autocomplete="off" />
@@ -37,7 +37,7 @@ custom_js: projects.js
     let allProjects = [];
     {% for item in site.data.github %}
         allProjects.push({
-            name: "{{ item[1]["full_name"] }}",
+            name: "{{ items.full_name }}",
             nameWithOwner: "{{ item[1]["nameWithOwner"] }}",
             description: `{{ item[1]["descriptionHTML"] }}`,
             color: "{{ item[1]["primaryLanguage"]["color"] }}",
