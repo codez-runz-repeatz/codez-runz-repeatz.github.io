@@ -19,22 +19,21 @@ custom_js: memberships.js
 
 <div class="section">
 	<div class="Grid membership-container container">
+		{% for job in site.data.aboutme %}
 		<div class="Grid-cell sizeFull membership">
 			<!-- Logo -->
 			<img src="assets/people.png" class="membership-logo">
-			{% for job in site.data.aboutme %}
-				<h2>{{ job.company }}</h2>
-			{% endfor %}
+			<h2>{{ job.company }}</h2>
 
 			<div class="name-handle">
-				<!-- Name -->
-				<h2>RosterOn 2.24 </h2>
+				<h2>{{ job.company }}</h2>
+				<p class="membership-handle">{{ job.dates }}</p>
 			</div>
 
-			<!-- Description -->
 			<p>a description</p>
 
-		    <!-- Visit website -->
-		    <button onclick="" type="button" class="Button">goto</button>
+			<button onclick="" type="button" class="Button">goto</button>
 		</div>
+		{% endfor %}
 	</div>
+</div>>
