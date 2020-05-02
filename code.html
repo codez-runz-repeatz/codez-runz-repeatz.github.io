@@ -1,50 +1,53 @@
 ---
 layout: default
-title: Memberships | Twitter Open Source
-description: Twitter Open Source Website
+title: codez.runz.repeatz - its churn
+description: codez.runz.repeatz.github.io
 keywords: twitter, open, source, open source, finatra, finagle, scala
-url: https://opensource.twitter.com
-custom_css: memberships.css
-custom_js: memberships.js
+url: https://codez.runz.repeatz.com
+custom_css: projects.css
+custom_js: projects.js
 ---
 
-<div class="header squad-header">
-	<div class="Grid container">
-		<div id="header-text" class="Grid-cell">
-			<h1 class="large-title">#Squad</h1>
-			<h1 class="squad-subheading">Our upstream and downstream partners who make open source happen</h1>
-		</div>
-	</div>
+<!-- Header -->
+
+<div class="header simple-header">
+    <div class="Grid container">
+        <div id="header-text" class="Grid-cell">
+            <h1 class="large-title">Projects</h1>
+            <div class="search-bar">
+                <input class="search-box" type="text" name="search" placeholder="Search Projects" autocomplete="off" />
+                <span class="Icon Icon--search"></span>
+            </div>
+        </div>
+    </div>
+
 </div>
 
-<div class="section">
-	<div class="Grid membership-container container">
-		{% for item in site.data.memberships %}
-		<div class="Grid-cell sizeFull membership">
-			<!-- Logo -->
-			<img src="{{ item["logo"] }}" class="membership-logo">
+<!-- Container for no results text -->
+<div class="Grid container no-results-container"></div>
 
-			<div class="name-handle">
-				<!-- Name -->
-				<h2>{{ item["name"] }}</h2>
+<!-- Projects grid (See renderProjects() in projects.js) -->
+<div class="Grid container all-projects"></div>
+<!-- End of all-projects -->
 
-				<!-- Twitter handle -->
-				{% if item["twitter"] %}
-				<a href="https://twitter.com/{{ item["twitter"] }}" target="_blank" class="membership-handle">
-					@{{ item["twitter"] }}
-				</a>
-				{% endif %}
-			</div>
+<script type="text/javascript">
+    let allProjects = [];
+    {% for item in site.data.projects %}
+        allProjects.push({
+            name: "{{ item[1]["name"] }}",
+            nameWithOwner: "{{ item[1]["nameWithOwner"] }}",
+            description: `{{ item[1]["descriptionHTML"] }}`,
+            color: "{{ item[1]["primaryLanguage"]["color"] }}",
+            primaryLanguage: "{{ item[1]["primaryLanguage"]["name"] }}",
+            homepageURL: "{{ item[1]["homepageUrl"] }}",
+            pushedAt : "{{ item[1]["pushedAt"] }}",
+            languages : "{{ item[1]["languages"] }}",
+            forks : "{{ item[1]["forkCount"] }}",
+            topics : "{{ item[1]["repositoryTopics"] }}",
+            stars : "{{ item[1]["stargazers"] }}",
+            watchers : "{{ item[1]["watchers"] }}",
+        })
+    {% endfor %}
+</script>
 
-			<!-- Description -->
-			<p>{{ item["description"] }}</p>
-
-		    <!-- Visit website -->
-		    {% if item["website"] %}
-		    <button onclick="window.open('{{ item["website"] }}')" type="button" class="Button">Visit</button>
-		    {% endif %}
-
-		</div>
-		{% endfor %}
-	</div>
-</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.0.4/fuse.min.js" async></script>
