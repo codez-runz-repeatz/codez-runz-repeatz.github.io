@@ -34,7 +34,7 @@ custom_js: projects.js
     let allProjects = [];
     {% for item in site.data.github %}
             name: "{{ item.full_name }}",
-            <!--nameWithOwner: "{{ item[1]["nameWithOwner"] }}",
+            nameWithOwner: "{{ item[1]["nameWithOwner"] }}",
             description: `{{ item[1]["descriptionHTML"] }}`,
             color: "{{ item[1]["primaryLanguage"]["color"] }}",
             primaryLanguage: "{{ item[1]["primaryLanguage"]["name"] }}",
@@ -44,7 +44,7 @@ custom_js: projects.js
             forks : "{{ item[1]["forkCount"] }}",
             topics : "{{ item[1]["repositoryTopics"] }}",
             stars : "{{ item[1]["stargazers"] }}",
-            watchers : "{{ item[1]["watchers"] }}",-->
+            watchers : "{{ item[1]["watchers"] }}",
     {% endfor %}
     )}
 </script>
