@@ -1,12 +1,4 @@
-/* Styles specific to projects page */
-nav {
-	background-color: var(--tw-color-red-deep);
-	padding: var(--feather-grid-xsmall);
-	width: 100%;
-	position: fixed;
-	z-index: 2;
-	overflow-y: visible;
-  }
+/* Styles specific to code page */
 
 /* Widths */
 :root {
@@ -106,7 +98,15 @@ input:focus {
 }
 
 /* Media queries */
-
+nav {
+	background-color: var(--tw-color-red-deep);
+	padding: var(--feather-grid-xsmall);
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+	overflow-y: visible;
+  }
+  
 /* 2 columns */
 @media (max-width: 1236px) {
 	.all-projects {
