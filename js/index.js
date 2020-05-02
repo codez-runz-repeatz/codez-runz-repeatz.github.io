@@ -22,7 +22,7 @@ var headingText = document.createTextNode("Follow Me ")
 
 var link = document.createElement("a")
 // Link text in heading
-var linkText = document.createTextNode("@codez_runz_repeat")
+var linkText = document.createTextNode("@codez_runz_repz")
 link.appendChild(linkText)
 link.setAttribute("target", "_blank")
 link.setAttribute("href", "https://twitter.com/TwitterOSS")
@@ -73,7 +73,7 @@ function lessThan600px(mediaQuery) {
         // Timeline Height
         changeHeightByClass("twitter-timeline", "450px")
         
-        // Follow Me @TwitterOSS
+        // Follow Me Duncan Decathalon
         parent.insertBefore(textCell, timeline)
         removeClassById("open-source-text", "u-size5of12")
         removeClassById("open-source-text", "u-before1of12")
