@@ -25,10 +25,10 @@ custom_js: memberships.js
 			<img src="assets/people.png" class="membership-logo">
 			<div class="name-handle">
 				<h2>{{ job.company }}</h2>
-				<p class="membership-handle">{{ job.dates }}</p>
+				<a class="membership-handle">{{ job.dates }}</a>
 			</div>
 			<p>{{ job.description }}</p>
-
+			<p>{{ job.clevel }}</p>
 			<button onclick="" type="button" class="Button">goto</button>
 		</div>
 		{% endfor %}
