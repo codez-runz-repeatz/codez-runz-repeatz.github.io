@@ -13,7 +13,8 @@ custom_js: projects.js
 <div class="header simple-header">
     <div class="Grid container">
         <div id="header-text" class="Grid-cell">
-            <h1 class="large-title">Hot Dog . Not Hot Dog</h1>
+            <h1 class="large-title">Code</h1>
+            <h1 class="squad-subheading">Hot Dog Not Hot Dog</h1>
             <div class="search-bar">
                 <input class="search-box" type="text" name="search" placeholder="Search Projects" autocomplete="off" />
                 <span class="Icon Icon--search"></span>
@@ -40,12 +41,12 @@ custom_js: projects.js
             color: "#{{ item.size }}",
             primaryLanguage: "{{ item.language }}",
             homepageURL: "{{ item.homepage }}",
-            pushedAt : "{{ item.pushedAt }}",
+            pushedAt : "{{ item.pushed_at }}",
             languages : "{{ item.languages }}",
-            forks : "{{ item.orkCount }}",
+            forks : "{{ item.forks_count }}",
             topics : "{{ item.repositoryTopics }}",
-            stars : "{{ item.stargazers }}",
-            watchers : "{{ item.watchers }}",
+            stars : "{{ item.stargazers_count }}",
+            watchers : "{{ item.watchers_count }}",
         })
     {% endfor %}
 </script>
