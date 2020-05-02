@@ -35,11 +35,11 @@ custom_js: projects.js
     {% for item in site.data.github %}
         allProjects.push({
             name: "{{ item[1]["name"] }}",
-            nameWithOwner: "{{ item[1]["nameWithOwner"] }}",
-            description: `{{ item[1]["descriptionHTML"] }}`,
-            color: "{{ item[1]["primaryLanguage"]["color"] }}",
-            primaryLanguage: "{{ item[1]["primaryLanguage"]["name"] }}",
-            homepageURL: "{{ item[1]["homepageUrl"] }}",
+            nameWithOwner: "{{ item[1]["full_name"] }}",
+            description: `{{ item[1]["description"] }}`,
+            color: "{{ item[1]["language"] }}",
+            primaryLanguage: "{{ item[1]["language"]["name"] }}",
+            homepageURL: "{{ item[1]["homepage"] }}",
             pushedAt : "{{ item[1]["pushedAt"] }}",
             languages : "{{ item[1]["languages"] }}",
             forks : "{{ item[1]["forkCount"] }}",
