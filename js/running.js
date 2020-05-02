@@ -99,7 +99,6 @@ function lessThan600px(mediaQuery) {
         // Timeline Height
         changeHeightByClass("twitter-timeline", "700px")
 
-        // Follow Us @TwitterOSS
         parent.insertBefore(textCell, timeline.nextSibling)
         addClassById("open-source-text", "u-size5of12")
         addClassById("open-source-text", "u-before1of12")

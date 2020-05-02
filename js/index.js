@@ -71,8 +71,7 @@ function lessThan600px(mediaQuery) {
         removeClassByClass("left-text", "u-after1of12")
 
         // Timeline Height
-        changeHeightByClass("twitter-timeline", "450px")
-        
+
         // Follow Me Duncan Decathalon
         parent.insertBefore(textCell, timeline)
         removeClassById("open-source-text", "u-size5of12")
@@ -99,7 +98,6 @@ function lessThan600px(mediaQuery) {
         // Timeline Height
         changeHeightByClass("twitter-timeline", "700px")
 
-        // Follow Us @TwitterOSS
         parent.insertBefore(textCell, timeline.nextSibling)
         addClassById("open-source-text", "u-size5of12")
         addClassById("open-source-text", "u-before1of12")
