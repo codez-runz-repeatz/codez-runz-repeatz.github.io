@@ -35,9 +35,9 @@ custom_js: projects.js
     {% for item in site.data.github %}
         allProjects.push({
             name: "{{ item.name }}",
-            nameWithOwner: "{{ item.full_name }}",
-            description: "{{ item.full_name }}",
-            color: "{{ item.language }}",
+            nameWithOwner: "{{ item.name }}",
+            description: `"{{ item.description }}"`,
+            color: "#{{ item.size }}",
             primaryLanguage: "{{ item.language }}",
             homepageURL: "{{ item.homepage }}",
             pushedAt : "{{ item.pushedAt }}",
