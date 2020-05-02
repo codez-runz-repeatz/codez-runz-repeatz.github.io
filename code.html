@@ -30,11 +30,8 @@ custom_js: projects.js
 <div class="Grid container all-projects"></div>
 <!-- End of all-projects -->
 
-<script type="text/javascript">
-    let allProjects = [];
     {% for item in site.data.github %}
-        allProjects.push({
-            name: "{{ item[1]["name"] }}",
+            name: "{{ item.full_name }}",
             nameWithOwner: "{{ item[1]["nameWithOwner"] }}",
             description: `{{ item[1]["descriptionHTML"] }}`,
             color: "{{ item[1]["primaryLanguage"]["color"] }}",
@@ -46,8 +43,6 @@ custom_js: projects.js
             topics : "{{ item[1]["repositoryTopics"] }}",
             stars : "{{ item[1]["stargazers"] }}",
             watchers : "{{ item[1]["watchers"] }}",
-        })
     {% endfor %}
-</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.0.4/fuse.min.js" async></script>
