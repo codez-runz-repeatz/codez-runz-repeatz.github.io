@@ -34,18 +34,18 @@ custom_js: projects.js
     let allProjects = [];
     {% for item in site.data.github %}
         allProjects.push({
-            name: {{ item.name }},
-            nameWithOwner: {{ item.full_name }},
-            description: {{ item.description }},
-            color: {{ item.language }},
-            primaryLanguage: {{ item.language }},
-            homepageURL: {{ item.homepage }},
-            pushedAt : {{ item.pushedAt }},
-            languages : {{ item.languages }},
-            forks : {{ item.orkCount }},
-            topics : {{ item.repositoryTopics }},
-            stars : {{ item.stargazers }},
-            watchers : {{ item.watchers }},
+            name: "{{ item.name }}",
+            nameWithOwner: "{{ item.full_name }}",
+            description: "{{ item.description }}",
+            color: "{{ item.language }}",
+            primaryLanguage: "{{ item.language }}",
+            homepageURL: "{{ item.homepage }}",
+            pushedAt : "{{ item.pushedAt }}",
+            languages : "{{ item.languages }}",
+            forks : "{{ item.orkCount }}",
+            topics : "{{ item.repositoryTopics }}",
+            stars : "{{ item.stargazers }}",
+            watchers : "{{ item.watchers }}",
         })
     {% endfor %}
 </script>
