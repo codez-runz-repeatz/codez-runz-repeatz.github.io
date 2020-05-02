@@ -2,7 +2,7 @@
   role: Senior Engineering Manager
   dates: Nov 2019 - Present
   where: Melbourne, Australia
-  logo: https://www.myob.com/au
+  logo: https://www.myob.com
   desc: MessageMedia are the premier provider of Messaging services across AU and NZ. After multiple Acquisitions, their is a number of challenges, as the we look to grow from a small to large organisation.
   peeps: Help uplift OKRs across the business to focus on constant improvement, Roll out pulse metrics across Engineering, Help uplift engineering from top down to bottom up.
   arch: Simplify the architecture vision for the cloud. Roll out mm-well architected framework. Create MessageMedia.xyz
@@ -21,3 +21,60 @@
   fe: Angular, C# Forms, React Native
   be: NodeJS, Python, JAVA, C#
   cloud: AWS, Azure, Kubernetes
+
+- company: Allocate Software
+  role: Head Of Engineering
+  dates: Mar 2009 – Jan 2017
+  where: Melbourne, Australia
+  desc: Allocate Software are a global leader within Rostering, Award Interpretation and Payroll. I worked with primarily with RosterOn an Australian owned and operated subsidiary, we joined the Allocate team to help close the gap for the complex Australian Award Interpretation Rules.
+  clevel: Helped transform the business to outsourcing, Managed Engineering Budget Across AU, Presented Multiple 3 year technology roadmaps.
+  eng: I helped the company move from a startup to an established business, introducing agile, and the focus on what’s core. Lead Architecture across multi-platform, and re-platforming. In the later years of the role worked to help the business outsource and EOL products after we acquired multiple workforce management companies globally.
+  prod: Brought to market RosterOn Mobile, Brought to market Awards Rules Engine, Brought to market Biometric Integrations.
+  peeps: Lead an engineering capability of 50 worldwide, Invested and created agile training camps.
+  fe: Powerbuilder, Silverlight, WPF, C#
+  be: C#, CSLA, SQL Server.
+  cloud: AWS
+
+- company: Bausch + Lomb
+  role: Principal Developer
+  dates: EmployedOct 2008 – Mar 2009
+  desc: Bausch and Lomb are the world leading contact lens manufacturer. Shipping over 10million contact lenses and operating 24/7.
+  eng: I helped the company navigate the complexity of software development within a SOX’s environment. Helped build a team of Engineers capable of supporting 24/7 processing plant. One of my main duties was to write software drivers for the machine plant.
+  audit: Work with auditors to carry out compliance PIRs, this was to understand the impact of any bugs or issues which happens on the shop-floor in relation to blast.
+  fe: VB.Net, C# Forms
+  be: Oracle, PLSQL, VB.NET, C#
+
+- company: PACSis Ltd
+  role: Co-Founder and CTO
+  dates: Aug 2004 – Mar 2009
+  where: Edinburgh, United Kingdom
+  desc: Co-Founder and CTO of PACSis an original start-up thought up to help reduce the stress across social work. The core-platform ‘Caremaster’ helped to deliver rostering and care plan management for aged care services.  Working with Co-Founders to ensure we had funding to continue to deliver our platform across multiple local authorities.  Building a business generating over 2 million in revenue and employing a staff of 20.
+  eng: Build Multiple products from concept to production, Invested in new tech.
+  fe: Oracle Forms, .net Forms, VB6
+  be: Oracle, SQL Server
+
+- company: West Lothian Council
+  role: Business Intelligence Architect
+  dates: Apr 2003 – Aug 2004
+  desc: Before big data was in, people, executives and government agencies still needed access to statistics and statutory reports 
+  clevel: Lobbied executives on the future of statutory reporting across CSS
+  eng: Statutory Reporting in Crystal Reports, Care Home respite service in Oracle Forms/Reports, Awarded Celebrating Success Award for Implementation of SMU.
+  be: SWIFT, Crystal Reports, Admin/Scripting Linux/Unix, Oracle Forms, Oracle Reports, PL/SQL
+
+- company: West Loathian Council
+  role: Developer
+  dates: Feb 2002 – Apr 2003
+  where: Bathgate, Scotland, United Kingdom
+  eng: Develop Tracking & Monitoring System for use within West Lothian Schools (VB6, SQL Server), Support and train teaching staff, Develop SQA Examination Reporting Tool, Project Manage roll out across the state.
+
+- company: Capita Education Software Solutions
+  role: Technical Professional Services Consultant
+  dates: May 2001 – Feb 2002
+  where: Kinross, Scotland, United Kingdom
+  desc: Project Manage the Implementation of EMS, Develop ScotXed Reporting Tool for use within Scottish Local Government, Liaise with Government Agencies on future Developments Regarding Data Collection within Education.
+
+- company: Timber Growers Association
+  role: Network Engineer
+  dates: Jan 2001 – May 2001
+  desc: Upgrade Network & Server, Build & Implement Membership Database (SQL Server, VB6), Develop Monthly Management Reporting System, Advise on IT matters to Scottish Forestry Trust, Generate Mailshot System.
+
