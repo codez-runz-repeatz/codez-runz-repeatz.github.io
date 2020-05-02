@@ -99,7 +99,7 @@ input:focus {
 
 /* Media queries */
 .header, .footer {
-	background-color: var(--tw-color-red-deep);
+	background-color: var(--tw-color-red-medium);
 	color: white;
   }
 
