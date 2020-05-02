@@ -36,9 +36,9 @@ custom_js: projects.js
 <script type="text/javascript">
     let allProjects = [];
     {% for item in site.data.github %}
-
+    
         allProjects.push({
-            name: {{ items.full_name }},
+            name: "{{ item.full_name }}",
             nameWithOwner: "{{ item[1]["nameWithOwner"] }}",
             description: `{{ item[1]["descriptionHTML"] }}`,
             color: "{{ item[1]["primaryLanguage"]["color"] }}",
