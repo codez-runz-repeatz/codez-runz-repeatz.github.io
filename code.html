@@ -32,7 +32,8 @@ custom_js: projects.js
 
 <script type="text/javascript">
     let allProjects = [];
-    {% for item in site.data.github %}
+    {% for item in site.data.projects %}
+        allProjects.push({
             name: "{{ item[1]["full_name"] }}",
             nameWithOwner: "{{ item[1]["nameWithOwner"] }}",
             description: `{{ item[1]["descriptionHTML"] }}`,
@@ -45,8 +46,8 @@ custom_js: projects.js
             topics : "{{ item[1]["repositoryTopics"] }}",
             stars : "{{ item[1]["stargazers"] }}",
             watchers : "{{ item[1]["watchers"] }}",
+        })
     {% endfor %}
-    )}
 </script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.0.4/fuse.min.js" async></script>
