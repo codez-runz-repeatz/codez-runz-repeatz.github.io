@@ -58,13 +58,13 @@ body {
 /* Navigation wrapper */
 
 nav {
-  background-color: var(--tw-color-blue-primary);
-  padding: var(--feather-grid-xsmall);
-  width: 100%;
-  position: fixed;
-  z-index: 2;
-  overflow-y: visible;
-}
+	background-color: var(--tw-color-red-deep);
+	padding: var(--feather-grid-xsmall);
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+	overflow-y: visible;
+  }
 
 /* Navigation title - web */
 
