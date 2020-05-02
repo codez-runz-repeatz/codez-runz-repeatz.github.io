@@ -98,7 +98,11 @@ input:focus {
 }
 
 /* Media queries */
-  
+.header, .footer {
+	background-color: var(--tw-color-red-deep);
+	color: white;
+  }
+
 /* 2 columns */
 @media (max-width: 1236px) {
 	.all-projects {
