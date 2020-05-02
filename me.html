@@ -16,15 +16,15 @@ custom_js: memberships.js
 		</div>
 	</div>
 </div>
-{% for item in site.data.aboutme %}
-<h2>{{ item["company"] }}</h2>
-{% endfor %}
 
 <div class="section">
 	<div class="Grid membership-container container">
 		<div class="Grid-cell sizeFull membership">
 			<!-- Logo -->
 			<img src="assets/people.png" class="membership-logo">
+			{% for item in site.data.aboutme %}
+				<h2>{{ item.company }}</h2>
+			{% endfor %}
 
 			<div class="name-handle">
 				<!-- Name -->
