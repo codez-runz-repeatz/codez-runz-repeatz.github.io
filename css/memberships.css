@@ -145,6 +145,21 @@ a.membership-handle:hover, a.membership-handle:active {
 	}
 }
 
+nav {
+	background-color: var(--tw-color-putple-medium);
+	padding: var(--feather-grid-xsmall);
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+	overflow-y: visible;
+  }
+
+/* Media queries */
+.header, .footer {
+	background-color: var(--tw-color-purple-medium);
+	color: white;
+  }
+
 /* Membership card layout: less than 620px */
 
 @media (max-width: 620px) {
