@@ -12,40 +12,26 @@ custom_js: memberships.js
 	<div class="Grid container">
 		<div id="header-text" class="Grid-cell">
 			<h1 class="large-title">Me</h1>
-			<h1 class="squad-subheading">I am a leader, transformer, </h1>
-			<h1 class="squad-subheading">creator, and developer of diverse delivery teams, </h1>	
+			<h1 class="squad-subheading">I remember my first experiment in code, a system which mocked hacking into a bank which i was so proud to show off, until i got grounded because my mum thought it was real.  I was nine it was on a Commodore 64, and that wasnt the last time i got grounded.</h1>	
 		</div>
 	</div>
 </div>
 
 <div class="section">
 	<div class="Grid membership-container container">
-		{% for item in site.data.memberships %}
 		<div class="Grid-cell sizeFull membership">
 			<!-- Logo -->
-			<img src="{{ item["logo"] }}" class="membership-logo">
+			<img src="assets/people.png" class="membership-logo">
 
 			<div class="name-handle">
 				<!-- Name -->
-				<h2>{{ item["name"] }}</h2>
-
-				<!-- Twitter handle -->
-				{% if item["twitter"] %}
-				<a href="https://twitter.com/{{ item["twitter"] }}" target="_blank" class="membership-handle">
-					@{{ item["twitter"] }}
-				</a>
-				{% endif %}
+				<h2>an item</h2>
 			</div>
 
 			<!-- Description -->
-			<p>{{ item["description"] }}</p>
+			<p>a description</p>
 
 		    <!-- Visit website -->
-		    {% if item["website"] %}
-		    <button onclick="window.open('{{ item["website"] }}')" type="button" class="Button">Visit</button>
-		    {% endif %}
-
+		    <button onclick="" type="button" class="Button">goto</button>
 		</div>
-		{% endfor %}
 	</div>
-</div>
