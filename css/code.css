@@ -1,4 +1,12 @@
 /* Styles specific to projects page */
+nav {
+	background-color: var(--tw-color-red-deep);
+	padding: var(--feather-grid-xsmall);
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+	overflow-y: visible;
+  }
 
 /* Widths */
 :root {
