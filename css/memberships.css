@@ -146,7 +146,7 @@ a.membership-handle:hover, a.membership-handle:active {
 }
 
 nav {
-	background-color: var(--tw-color-putple-medium);
+	background-color: var(--tw-color-purple-medium);
 	padding: var(--feather-grid-xsmall);
 	width: 100%;
 	position: fixed;
