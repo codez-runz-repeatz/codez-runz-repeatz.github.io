@@ -193,3 +193,19 @@ a.membership-handle:hover, a.membership-handle:active {
 		width: 100%;
 	}
 }
+
+
+nav {
+	background-color: var(--tw-color-purple-medium);
+	padding: var(--feather-grid-xsmall);
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+	overflow-y: visible;
+  }
+
+/* Media queries */
+.header, .footer {
+	background-color: var(--tw-color-purple-medium);
+	color: white;
+  }
