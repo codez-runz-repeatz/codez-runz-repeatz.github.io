@@ -22,11 +22,11 @@ custom_js: memberships.js
 		{% for job in site.data.repz %}
 		<div class="Grid-cell sizeFull membership">
 			<!-- Logo -->
+			<img src="{{ job.headline.link }}" class="membership-logo" height="10px" width="10px">
 			<div class="name-repeatz">
 				<h2>{{ job.company }}</h2>
 			</div>
-			<p><b>what did i do?</b> {{ job.headline }}</p>
-			<p><b>for people?</b> {{ job.chat }}</p>
+			<p><b> {{ job.headline }}</b>, {{ job.chat }}</p>
 			<!--<button onclick="" type="button" class="Button">goto</button>-->
 		</div>
 		{% endfor %}
