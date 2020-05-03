@@ -1,50 +1,41 @@
 ---
 layout: default
-title: Memberships | Twitter Open Source
-description: Twitter Open Source Website
-keywords: twitter, open, source, open source, finatra, finagle, scala
-url: https://opensource.twitter.com
-custom_css: memberships.css
+title: Repeat | Codez Runz Repeatz
+description: codez.runz.repeatz.github.io
+keywords: odez.runz.repeatz, open, source, open source, running, scala, c#, java, waf
+url: https://codez.runz.repeatz.com
+custom_css: index.css
 custom_js: memberships.js
 ---
-
-<div class="header squad-header">
+	
+<div class="header home-header">
 	<div class="Grid container">
-		<div id="header-text" class="Grid-cell">
-			<h1 class="large-title">#Squad</h1>
-			<h1 class="squad-subheading">Our upstream and downstream partners who make open source happen</h1>
+		<div id="header-text" class="Grid-cell u-size7of8">
+			<h1 class="large-title">Me</h1>
+			<h1 class="squad-subheading">I remember my first experiment in code, a system which mocked hacking into a bank which i was so proud to show off, until i got grounded because my mum thought it was real.  I was nine it was on a Commodore 64, and that wasnt the last time i got grounded.</h1>	
 		</div>
 	</div>
 </div>
 
 <div class="section">
 	<div class="Grid membership-container container">
-		{% for item in site.data.memberships %}
+		{% for job in site.data.aboutme %}
 		<div class="Grid-cell sizeFull membership">
 			<!-- Logo -->
-			<img src="{{ item["logo"] }}" class="membership-logo">
-
+			<img src="{{ job.logo }}/favicon.ico" class="membership-logo" height="10px" width="10px">
 			<div class="name-handle">
-				<!-- Name -->
-				<h2>{{ item["name"] }}</h2>
-
-				<!-- Twitter handle -->
-				{% if item["twitter"] %}
-				<a href="https://twitter.com/{{ item["twitter"] }}" target="_blank" class="membership-handle">
-					@{{ item["twitter"] }}
-				</a>
-				{% endif %}
+				<h2>{{ job.company }}</h2>
+				<a class="membership-handle">{{ job.dates }}</a>
 			</div>
-
-			<!-- Description -->
-			<p>{{ item["description"] }}</p>
-
-		    <!-- Visit website -->
-		    {% if item["website"] %}
-		    <button onclick="window.open('{{ item["website"] }}')" type="button" class="Button">Visit</button>
-		    {% endif %}
-
+			<p><b>what did i do?</b> {{ job.desc }}</p>
+			<p><b>for people?</b> {{ job.peeps }}</p>
+			<p><b>in Engineering</b> {{ job.eng }}</p>
+			<p><b>in Architecture?</b> {{ job.arch }}</p>
+			<p><b>front-end tech?</b> {{ job.fe }}</p>
+			<p><b>back-end tech?</b> {{ job.be }}</p>
+			<p><b>cloud tech?</b> {{ job.cloud }}</p>
+			<button onclick="" type="button" class="Button">goto</button>
 		</div>
 		{% endfor %}
 	</div>
-</div>
+</div>>
