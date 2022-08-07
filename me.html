@@ -27,13 +27,7 @@ custom_js: memberships.js
 				<h2>{{ job.company }}</h2>
 				<a class="membership-handle">{{ job.dates }}</a>
 			</div>
-			<p><b>what did i do?</b> {{ job.desc }}</p>
-			<p><b>for people?</b> {{ job.peeps }}</p>
-			<p><b>in Engineering</b> {{ job.eng }}</p>
-			<p><b>in Architecture?</b> {{ job.arch }}</p>
-			<p><b>front-end tech?</b> {{ job.fe }}</p>
-			<p><b>back-end tech?</b> {{ job.be }}</p>
-			<p><b>cloud tech?</b> {{ job.cloud }}</p>
+			<p>{{ job.desc }}</p>
 			<button onclick="" type="button" class="Button">goto</button>
 		</div>
 		{% endfor %}
