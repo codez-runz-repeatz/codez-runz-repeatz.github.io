@@ -3,11 +3,7 @@
   dates: Nov 2019 - Present
   where: Melbourne, Australia
   logo: https://messagemedia.com
-  desc: MessageMedia are the premier provider of Messaging services across AU and NZ. After multiple Acquisitions, their is a number of challenges, as the we look to grow from a small to large organisation.
-  peeps: Help uplift OKRs across the business to focus on constant improvement, Roll out pulse metrics across Engineering, Help uplift engineering from top down to bottom up.
-  arch: Simplify the architecture vision for the cloud. Roll out mm-well architected framework. Create MessageMedia.xyz
-  eng: Uplift the technical leadership. Living Diagrams over confluence pages. Reduce the noise. Reduce MTTD, MTTR
-  fe: Java, React, Python, PHP, node
+  desc: Primarily my role within MessageMedia was to help stabilise the platform and ensure we could achieve the SLA’s (20million messages a day in under 2 seconds) to ensure we could exit the market for 1.4billion to sinch in 2021.  In order to achieve this, I introduced an engineering vision around autonomy, mastery and purpose to ensure we had a framework to keep and retain our best talent this allowed us to ensure we could achieve the purpose of migrating the eight platforms onto the cloud.  More recently after the (Sinch) buyout it has been to scale the engineering team from 300-600 and grow the business x10 each financial year.
 
 - company: MYOB
   role: Development Manager
