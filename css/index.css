@@ -164,4 +164,27 @@ img.emoji-img {
 	}
 }
 
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-media-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.social-media-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-media-icons a:hover {
+  color: var(--tw-color-blue-faded);
+}
+
+.social-media-icons .fa {
+  color: white;
+}
 
