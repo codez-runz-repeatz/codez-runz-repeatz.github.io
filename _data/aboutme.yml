@@ -1,6 +1,13 @@
+- company: Block
+  role: Director of Engineering
+  dates: Nov 2022 - Present
+  where: Melbourne, Australia
+  logo: https://block.xyz/
+  desc: Portals, Money Movement, International
+
 - company: MessageMedia
   role: Head of Engineering
-  dates: Nov 2019 - Present
+  dates: Nov 2019 - Nov 2022
   where: Melbourne, Australia
   logo: https://messagemedia.com
   desc: Primarily my role within MessageMedia was to help stabilise the platform and ensure we could achieve the SLA’s (20million messages a day in under 2 seconds) to ensure we could exit the market for 1.4billion to sinch in 2021.  In order to achieve this, I introduced an engineering vision around autonomy, mastery and purpose to ensure we had a framework to keep and retain our best talent this allowed us to ensure we could achieve the purpose of migrating the eight platforms onto the cloud.  More recently after the (Sinch) buyout it has been to scale the engineering team from 300-600 and grow the business x10 each financial year.
